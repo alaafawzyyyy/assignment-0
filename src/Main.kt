@@ -14,7 +14,7 @@ fun main() {
     (triangle as Triangle).setDimensions(readLine()!!.toDouble(),readLine()!!.toDouble(),readLine()!!.toDouble())
 
 
-    print("Enter the dimensions of the EquilateralTriangle (side1,side2,side3) : ")
+    println("Enter the dimensions of the EquilateralTriangle (side) : ")
     (equilateralTriangle as EquilateralTriangle).setDimensions(readLine()!!.toDouble())
 
 
